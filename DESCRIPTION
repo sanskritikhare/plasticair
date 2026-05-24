@@ -1,5 +1,5 @@
 Package: plasticair
-Title: Tools for Analyzing Plastic Waste and Air Quality
+Title: Tools for Analyzing Plastic Waste and Air QualitY
 Version: 0.0.0.9000
 Authors@R: 
     person("Nitya", "Kolli", , "nityakolli2006@gmail.com", role = c("aut", "cre")),
