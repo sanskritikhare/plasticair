@@ -1,0 +1,14 @@
+Package: plasticair
+Title: Tools for Analyzing Plastic Waste and Air Quality
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nitya", "Kolli", , "nityakolli2006@gmail.com", role = c("aut", "cre")),
+    person("Sanskriti", "Khare", , "sanskritikhareuni@gmail.com", role = "aut"),
+    person("Brett", "Van", , "brettvan23@gmail.com", role = "aut")
+Description: Provides tools for loading, cleaning, analyzing, and visualizing 
+    global plastic waste, quality data and fertility rate.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
