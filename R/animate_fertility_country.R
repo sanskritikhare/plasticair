@@ -1,6 +1,6 @@
 #' Animate Fertility Rate Over Time
 #'
-#' Creates an animated line plot showing fertility rate over time for the
+#' Creates an animated line plot howing fertility rate over time for the
 #' Philippines. The dashed horizontal line shows the replacement rate.
 #'
 #' @param combined A data frame containing year and fertility_rate columns.
