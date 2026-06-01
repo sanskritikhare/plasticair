@@ -36,7 +36,7 @@ summarize_country_pollution(
 This function will summarize total plastic waste, AQI, and volunteer participation for a selected country with the default set as the Philippines and display it in a table format.
 
 ```{r}
-animate_feritile_country(
+animate_fertility_country(
   fertility,
   country =  "Philippines",
   replacement_rate = 2.1
