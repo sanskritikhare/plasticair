@@ -1,6 +1,27 @@
+#' Validate Fertility Data
+#'
+#' Checks that the input data has the columns needed for the fertility animation.
+#'
+#' @param combined A data frame.
+#'
+#' @return The original data frame if validation passes.
+validate_fertility_data <- function(combined) {
+  if (!is.data.frame(combined)) {
+    stop("combined must be a data frame.")
+  }
+
+  required_cols <- c("year", "fertility_rate")
+
+  if (!all(required_cols %in% names(combined))) {
+    stop("combined must contain year and fertility_rate columns.")
+  }
+
+  combined
+}
+
 #' Animate Fertility Rate Over Time
 #'
-#' Creates an animated line plot howing fertility rate over time for the
+#' Creates an animated line plot showing fertility rate over time for the
 #' Philippines. The dashed horizontal line shows the replacement rate.
 #'
 #' @param combined A data frame containing year and fertility_rate columns.
@@ -9,6 +30,8 @@
 #'
 #' @export
 animate_fertility_country <- function(combined) {
+
+  combined <- validate_fertility_data(combined)
 
   p <- ggplot2::ggplot(
     combined,

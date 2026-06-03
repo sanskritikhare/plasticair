@@ -10,10 +10,10 @@ summarize_country_pollution(air_vs_plastic, country_name = "Philippines")
 \item{air_vs_plastic}{A data frame containing country, total_plastic, and
 avg_aqi columns.}
 
-\item{country_name}{The country to summarize. The default is "Philippines".}
+\item{country_name}{The country to summarize. Default is "Philippines".}
 }
 \value{
-A gt table with pollution summary information for the selected country.
+A gt table showing pollution information for one country.
 }
 \description{
 Creates a small table showing total plastic waste and average AQI for one

@@ -10,7 +10,7 @@ animate_fertility_country(combined)
 \item{combined}{A data frame containing year and fertility_rate columns.}
 }
 \value{
-An animated gif image.
+An animated GIF showing fertility rate over time.
 }
 \description{
 Creates an animated line plot showing fertility rate over time for the
